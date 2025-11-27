@@ -15,7 +15,7 @@ public class SecConfig {
             .authorizeHttpRequests(auth -> auth
                 .anyRequest().authenticated()
             )
-            .oauth2Login(); // <ÄÄ enables Google OAuth login
+            .oauth2Login(); //  enables Google OAuth login
 
         return http.build();
     }
